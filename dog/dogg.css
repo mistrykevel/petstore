@@ -35,17 +35,17 @@ a{
   font-family:Verdana, Geneva, sans-serif;
 }
 
-a:link{
+a:link:not(.nope){
   color: black;
 }
-a:visited{
+a:visited:not(.nope){
   color: #000;
 }
-a:hover{
+a:hover:not(.nope){
   color: #00f00f;
   text-decoration: underline;
 }
-a:active{
+a:active:not(.nope){
   color: red;
   text-decoration: underline;
 }
