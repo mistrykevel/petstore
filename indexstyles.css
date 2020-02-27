@@ -29,4 +29,13 @@ li a {
 li a:hover{
   background-color: #0d305e;
 }
-
+.home:hover{
+  cursor: pointer;
+}
+.huge{
+  width: 45px;
+  height: 45px;
+}
+h1{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}

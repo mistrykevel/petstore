@@ -35,20 +35,24 @@ a{
   font-family:Verdana, Geneva, sans-serif;
 }
 
-a:link:not(.nope){
+.pages:link{
   color: black;
 }
-a:visited:not(.nope){
+.pages:visited{
   color: #000;
 }
-a:hover:not(.nope){
+.pages:hover{
   color: #00f00f;
   text-decoration: underline;
 }
-a:active:not(.nope){
+.pages:active{
   color: red;
   text-decoration: underline;
 }
 h1{
   font-family:Verdana, Geneva, sans-serif;
+}
+.huge{
+  width: 45px;
+  height: 45px;
 }
